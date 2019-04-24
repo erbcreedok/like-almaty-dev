@@ -1,0 +1,30 @@
+#about {
+  width: 100vw;
+  overflow: hidden;
+  background: #fcfdff;
+  h2 {
+    color: #224252;
+  }
+  p {
+    color: #49565d;
+  }
+  #sliding-left {
+    transform: translateX(-50px);
+    box-shadow: -5px 5px 4px #04481936;
+  }
+  #put-lines {
+    background-image: url($path-image + "/mountain-line.png");
+    background-position: top right;
+    background-size: 200px;
+    background-repeat: no-repeat;
+  }
+  #about-first-row {
+    background-image: url($path-image + "/mountain-line2.png");
+    background-position: bottom left;
+    background-size: 200px;
+    background-repeat: no-repeat;
+  }
+  #about-second-row {
+    margin-top: -2rem;
+  }
+}

@@ -1,4 +1,13 @@
 @import "colors";
 
-$primary: $blue;
+$primary: $light-blue;
 $primary-light: $blue-1;
+
+.color-primary {
+  color: $primary;
+}
+
+.font-handwrite {
+  font-family: Caveat, sans-serif;
+  font-style: italic;
+}

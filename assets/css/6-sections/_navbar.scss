@@ -1,0 +1,46 @@
+.navbar {
+  transition: background 300ms;
+  .navbar-brand img {
+    transition: 300ms;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .nav-link {
+    color: #fff;
+    &:hover, &.hover, &:active, &.active {
+      color: #fff;
+      opacity: .7;
+    }
+  }
+  &.state-idle {
+    .no-state {
+      display: block;
+    }
+    .on-state {
+      display: none;
+    }
+    .navbar-brand img {
+      height: 60px;
+    }
+  }
+  &:not(.state-idle) {
+    background: rgba(166,192,210,1);
+    background: -moz-linear-gradient(left, rgba(166,192,210,1) 0%, rgba(121,166,196,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(166,192,210,1)), color-stop(100%, rgba(121,166,196,1)));
+    background: -webkit-linear-gradient(left, rgba(166,192,210,1) 0%, rgba(121,166,196,1) 100%);
+    background: -o-linear-gradient(left, rgba(166,192,210,1) 0%, rgba(121,166,196,1) 100%);
+    background: -ms-linear-gradient(left, rgba(166,192,210,1) 0%, rgba(121,166,196,1) 100%);
+    background: linear-gradient(to right, rgba(166,192,210,1) 0%, rgba(121,166,196,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6c0d2', endColorstr='#79a6c4', GradientType=1 );
+    box-shadow: 0 5px 25px rgba(0,0,0,.22);
+    .navbar-brand img {
+      height: 40px;
+    }
+    .no-state {
+      display: block;
+    }
+    .on-state {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+#services {
+  background: #f9f9fb;
+  overflow: hidden;
+  position: relative;
+  max-width: 100vw;
+  min-height: 500px;
+  background-image: url($path-image + "/bg-services.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+  h3 {
+    color: #224252;
+    font-size: 3rem;
+  }
+  p {
+    color: #49565d;
+    font-size: 1.4rem;
+  }
+  .card {
+    height: 100%;
+  }
+  .cards:hover .card{
+    opacity: .6;
+  }
+  .cards .card:hover {
+    opacity: 1;
+  }
+}

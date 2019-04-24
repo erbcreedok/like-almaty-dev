@@ -1,0 +1,23 @@
+.container-half-left, .container-half-right, .container-half {
+  width: 100%;
+  &.container-half-left {
+    padding-left: 15px;
+    margin-left: auto;
+  }
+  &.container-half-right {
+    padding-right: 15px;
+    margin-right: auto;
+  }
+  @include media-breakpoint-up(sm) {
+    max-width: 270px;
+  }
+  @include media-breakpoint-up(md) {
+    max-width: 360px;
+  }
+  @include media-breakpoint-up(lg) {
+    max-width: 480px;
+  }
+  @include media-breakpoint-up(xl) {
+    max-width: 570px;
+  }
+}

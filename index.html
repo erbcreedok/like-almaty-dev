@@ -18,23 +18,23 @@
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top state-idle">
+      <nav class="navbar navbar-expand-sm fixed-top">
         <div class="container">
-          <ul class="navbar-nav" style="width: 0">
-            <li class="nav-item">
-              <a class="nav-link" href="#products">Products</a>
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/logo-color.png" srcset="./assets/img/logo-color@2x.png 2x" alt="">
+          </a>
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#main">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About us</a>
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
             </li>
           </ul>
-          <a class="navbar-brand" href="/">
-            <div class="navbar-logo text-center" style="max-width: 180px">
-              <img src="./assets/img/logo.png" srcset="./assets/img/logo@2x.png 2x, ./assets/img/logo@3x.png 3x" alt="">
-              <span class="d-none d-md-inline-block">Gourmet Trade House</span>
-            </div>
-          </a>
-          <div class=""></div>
         </div>
       </nav>
     </header>
@@ -43,8 +43,157 @@
       <div class="video-wrapper">
         <video src="./assets/img/bg.mp4" autoplay loop muted></video>
       </div>
+      <div class="main-content">
+        <div class="container">
+          <div class="main-jumbotron">
+            <div class="text-container">
+              <h1 class="font-handwrite mb-1 color-primary"><span style="text-transform: uppercase">Like Almaty</span> company</h1>
+              <p class="px-4 font-weight-light font-italic" style="opacity: 1; font-size: 3rem">You will like Almaty</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
+    <section id="about">
+      <div class="container-fluid">
+        <div class="row" id="about-first-row">
+          <div class="col-md-6 d-flex align-items-center pr-4" id="put-lines">
+            <div class="container-half-left">
+              <h2 class="mb-5 pb-5 font-handwrite" style="font-size: 7rem">About us</h2>
+              <p>
+                Tour Operator "LikeAlmaty" was founded by an experienced professional team coming from various Tourist Holdings, specialized in the planning, booking and management of any travel operation related to groups in Kazakhstan and worldwide.
+                <br/>
+                <br/>
+                We always work thinking of you, of your needs, but above all, of your expectations. We know that every detail is important, and for this reason make our best effort to care for all those "little things" which will always make the difference so that your trip will be exceptional.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 px-0">
+            <div class="img">
+              <img src="./assets/img/about-2.jpg" width="100%" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center" id="about-second-row">
+          <div class="col-md-6 pl-0">
+            <div class="img">
+              <img src="./assets/img/about-1.jpg" width="100%" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 pl-0 pt-5">
+            <div class="container-half-right pl-4 pt-5">
+              <p class="mb-4">
+                Our service is characterized by being flexible and creative in the design of itineraries;
+                <br/>
+                For this we are diligent in the selection of our transport personnel, guides and all those persons involved in the operation.
+                <br/>
+                <br/>
+                We intend to show you a variety of nature places, national shows, and even meet with some of the people who live here.
+              </p>
+              <img src="./assets/img/about-3.jpg" width="80%" id="sliding-left" alt="" class="mt-5">
+            </div>
+          </div>
+        </div>
+        <div class="container my-5">
+          <p class="font-handwrite text-center" style="font-size: 5rem">We make sure that your vacation matches and exceeds your interests, and expectations.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container mt-5">
+        <h2 class="my-5 pb-5 font-handwrite" style="font-size: 7rem">Our Services</h2>
+      </div>
+      <div class="container">
+        <div class="row mb-5 cards">
+          <div class="col-md-3 mb-5">
+            <div class="card">
+              <div class="card-top" style="background-image: url('./assets/img/service1.jpg')">
+              </div>
+              <div class="card-body">
+                <h3 class="my-3 font-handwrite">Individual approach</h3>
+                <p class="my-2">
+                  Our professional and experienced team always at your disposal and ready to arrange every element of your holiday including flights, transfers excursion, tours and any other additional services
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-5">
+            <div class="card">
+              <div class="card-top" style="background-image: url('./assets/img/service2.jpg')">
+              </div>
+              <div class="card-body">
+                <h3 class="my-3 font-handwrite">Accommodation</h3>
+                <p class="my-2">
+                  Hotels in Kazakhstan, range from luxurious multinational hotel chains to simple and small family run hotels. Accommodation is reasonably priced and you will be able to find a hotel to fit almost any kind of budget
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-5">
+            <div class="card">
+              <div class="card-top" style="background-image: url('./assets/img/service3.jpg')">
+              </div>
+              <div class="card-body">
+                <h3 class="my-3 font-handwrite">VIP Service</h3>
+                <p class="my-2">
+                  Our VIP Service is at your disposal 24 hours a day, 7 days a week. In addition to our outstanding personal service and attention to every client's individual needs, we offer a unique world class VIP service to ensure our clients enjoy every aspect of luxury travel in true style
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-5">
+            <div class="card">
+              <div class="card-top" style="background-image: url('./assets/img/service4.jpg'); background-position: bottom">
+              </div>
+              <div class="card-body">
+                <h3 class="my-3 font-handwrite">Transfers</h3>
+                <p class="my-2">
+                  Our fleet is used for all kinds of transfers: airport transfers, complete organization of all transport requirements for meetings, incentive trips and excursions, as well as group handling.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="./assets/img/logo-color.png" srcset="./assets/img/logo-color@2x.png 2x" class="mb-4" alt="">
+            <p style="font-size: 1.2rem">2019 LikeAlmaty © All rights reserved</p>
+          </div>
+          <div class="col-md-3">
+            <p>Address:</p>
+            <p style="font-size: 1.2rem">
+              Gogol 2, Almaty, Kazakhstan
+            </p>
+          </div>
+          <div class="col-md-3">
+            <p>Email:</p>
+            <p style="font-size: 1.2rem">
+              - <a href="mailto: info@likealmaty.com">info@likealmaty.com</a><br/>
+              - <a href="mailto: tourism@likealmaty.com">tourism@likealmaty.com</a><br/>
+              - <a href="mailto: yr@likealmaty.com">yr@likealmaty.com</a><br/>
+              - <a href="mailto: nz@likealmaty.com">nz@likealmaty.com</a><br/>
+              - <a href="mailto: tourism1likealmaty@likealmaty.com">tourism1likealmaty@likealmaty.com</a><br/>
+              - <a href="mailto: avia@likealmaty.com">avia@likealmaty.com</a><br/>
+            </p>
+          </div>
+          <div class="col-md-3">
+            <p>Phones:</p>
+            <p style="font-size: 1.2rem">
+              <a href="tel: + 77789731111">+7(778)973-11-11 - Yelena (Director)</a><br/>
+              <a href="tel: + 77789741111">+7(778)974-11-11 - Nursultan (General Director)</a><br/>
+              <a href="tel: + 77788880048">+7(778)888-00-48 - Polina (Manager for outbound)</a><br/>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- build:js -->
     <script src="assets/js/main.js"></script>

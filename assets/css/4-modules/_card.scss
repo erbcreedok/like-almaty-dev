@@ -1,0 +1,26 @@
+.card {
+  background: transparent;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  box-shadow: 0 15px 40px rgba(0,0,0,.2);
+  border: none;
+  overflow: hidden;
+  .card-top {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  .card-body {
+    padding: 0 1rem 2rem;
+    background: #f9f9fb;
+  }
+  transition: .2s;
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.05) translateY(-30px);
+    box-shadow: 0 35px 20px rgba(0,0,0,.2);;
+  }
+}
