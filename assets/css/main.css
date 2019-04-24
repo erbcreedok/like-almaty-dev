@@ -1503,13 +1503,31 @@ a:not(.btn) {
     color: white; }
 
 #main .video-wrapper {
-  width: 100vw;
+  overflow: hidden;
   height: 100vh;
-  overflow: hidden; }
+  background: black; }
   #main .video-wrapper video {
-    min-width: 100%;
+    position: relative;
     min-height: 100%;
-    right: 0; }
+    min-width: 100%;
+    z-index: 1;
+    -webkit-filter: blur(10px);
+            filter: blur(10px); }
+  #main .video-wrapper:before, #main .video-wrapper:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0; }
+  #main .video-wrapper:before {
+    background: rgba(0, 0, 0, 0.7); }
+  #main .video-wrapper:after {
+    background-image: url("../img/dot.png");
+    background-size: 10px;
+    opacity: .1; }
 
 footer {
   background: #1d2223;
