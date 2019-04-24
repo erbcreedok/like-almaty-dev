@@ -44,3 +44,8 @@
     }
   }
 }
+@include media-breakpoint-down(sm) {
+  .navbar .navbar-brand img, .navbar.state-idle .navbar-brand img {
+    height: 40px;
+  }
+}

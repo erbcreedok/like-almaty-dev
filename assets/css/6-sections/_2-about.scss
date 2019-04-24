@@ -9,8 +9,20 @@
     color: #49565d;
   }
   #sliding-left {
-    transform: translateX(-50px);
-    box-shadow: -5px 5px 4px #04481936;
+    @include media-breakpoint-up(lg){
+      transform: translateX(-50px);
+      box-shadow: -5px 5px 4px #04481936;
+      width: 80%;
+    }
+    @include media-breakpoint-down(md) {
+      width: 100%;
+    }
+  }
+  #about-blockquote-text p {
+    font-size: 5rem;
+    @include media-breakpoint-down(sm) {
+      font-size: 3rem;
+    }
   }
   #put-lines {
     background-image: url($path-image + "/mountain-line.png");

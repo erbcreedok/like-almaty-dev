@@ -72,7 +72,8 @@ gulp.task("build", ['minifyScripts', 'minifyCss'], function() {
 		'*.html',
 		'*.php',
 		'favicon.ico',
-		"assets/img/**"
+		"assets/img/**",
+		"assets/fonts/**"
 	], { base: './'})
 		.pipe(gulp.dest('dist'));
 });

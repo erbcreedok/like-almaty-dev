@@ -8,12 +8,6 @@
     padding-right: 15px;
     margin-right: auto;
   }
-  @include media-breakpoint-up(sm) {
-    max-width: 270px;
-  }
-  @include media-breakpoint-up(md) {
-    max-width: 360px;
-  }
   @include media-breakpoint-up(lg) {
     max-width: 480px;
   }

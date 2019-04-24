@@ -19,10 +19,12 @@
   .card {
     height: 100%;
   }
-  .cards:hover .card{
-    opacity: .6;
-  }
-  .cards .card:hover {
-    opacity: 1;
+  @include media-breakpoint-up(lg) {
+    .cards:hover .card{
+      opacity: .6;
+    }
+    .cards .card:hover {
+      opacity: 1;
+    }
   }
 }
