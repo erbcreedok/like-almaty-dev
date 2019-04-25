@@ -4,7 +4,10 @@
   height: 100vh;
   position: relative;
   @include media-breakpoint-down(sm) {
-    background: rgb(25, 23, 64) url($path-image + "/bg-jumb-mini.png");;
+    background: rgb(25, 23, 64) url($path-image + "/bg-jumb-mini.png");
+    background-repeat: no-repeat;
+    background-size: 560px;
+    background-position: left bottom;
   }
   .video-wrapper {
     background: rgb(25, 23, 64);
@@ -115,7 +118,4 @@
       }
     }
   }
-  background-repeat: no-repeat;
-  background-size: 560px;
-  background-position: left bottom;
 }
