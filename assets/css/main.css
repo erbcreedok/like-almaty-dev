@@ -8007,8 +8007,8 @@ a:not(.btn) {
           background-image: url("../img/bg-jumb.png");
           background-attachment: fixed;
           background-repeat: no-repeat;
-          background-size: contain;
-          background-position: right bottom; } }
+          background-size: auto 50rem;
+          background-position: left 75% top 15rem; } }
       @media (max-width: 767.98px) {
         #main .main-content .main-jumbotron {
           padding: 1rem;

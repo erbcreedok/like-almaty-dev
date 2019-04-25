@@ -109,8 +109,8 @@
         background-image: url($path-image + "/bg-jumb.png");
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: contain;
-        background-position: right bottom;
+        background-size: auto 50rem;
+        background-position: left 75% top 15rem;
       }
       @include media-breakpoint-down(sm) {
         padding: 1rem;
