@@ -12,13 +12,13 @@
   .video-wrapper {
     background: rgb(25, 23, 64);
     overflow: hidden;
-    min-height: 100%;
+    //min-height: 100%;
     min-width: 100%;
     position: absolute;
     z-index: -1;
     video {
       position: relative;
-      min-height: 100%;
+      min-height: 110%;
       min-width: 100%;
       z-index: 1;
       filter: blur(3px);
@@ -36,7 +36,7 @@
       right: 0;
     }
     &:before {
-      background: rgba(0,0,0,.7);
+      background: rgba(0,0,0,.1);
     }
     &:after {
       background-image: url($path-image + "/dot.png");

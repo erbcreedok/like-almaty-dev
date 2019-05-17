@@ -7888,7 +7888,9 @@ a:not(.btn) {
     margin-top: 1rem;
     margin-bottom: 1rem; }
   .navbar .nav-link {
-    color: #fff; }
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold; }
     .navbar .nav-link:hover, .navbar .nav-link.hover, .navbar .nav-link:active, .navbar .nav-link.active {
       color: #fff;
       opacity: .7; }
@@ -7929,13 +7931,12 @@ a:not(.btn) {
   #main .video-wrapper {
     background: #191740;
     overflow: hidden;
-    min-height: 100%;
     min-width: 100%;
     position: absolute;
     z-index: -1; }
     #main .video-wrapper video {
       position: relative;
-      min-height: 100%;
+      min-height: 110%;
       min-width: 100%;
       z-index: 1;
       -webkit-filter: blur(3px);
@@ -7952,7 +7953,7 @@ a:not(.btn) {
       bottom: 0;
       right: 0; }
     #main .video-wrapper:before {
-      background: rgba(0, 0, 0, 0.7); }
+      background: rgba(0, 0, 0, 0.1); }
     #main .video-wrapper:after {
       background-image: url("../img/dot.png");
       background-size: 10px;
