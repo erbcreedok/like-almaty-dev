@@ -7959,10 +7959,6 @@ a:not(.btn) {
       background-size: 10px;
       opacity: .1; }
   #main .main-content {
-    background-image: url("../img/mountain-home.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right center;
     overflow: auto;
     width: 100%;
     min-height: 100%;
@@ -7970,31 +7966,36 @@ a:not(.btn) {
     margin: auto;
     color: white;
     padding: 10rem 0; }
-    #main .main-content .text-container h1 {
-      font-weight: bold;
-      font-size: 6rem;
-      margin-bottom: .5rem; }
-    #main .main-content .text-container p {
-      text-align: right;
-      font-size: 3rem;
-      margin-top: -2rem; }
-    @media (min-width: 768px) {
-      #main .main-content .text-container {
-        margin-top: -10rem;
-        background-image: url("../img/bg-h1.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center; } }
-    @media (max-width: 767.98px) {
-      #main .main-content .text-container h1.h1 {
-        color: white;
-        font-size: 4rem;
-        line-height: .8;
-        margin-bottom: 2rem; }
-      #main .main-content .text-container p.p {
-        font-size: 2rem;
-        text-align: left;
-        color: #57c7e1; } }
+    #main .main-content .text-container {
+      margin: 0 auto; }
+      #main .main-content .text-container h1 {
+        font-weight: bold;
+        font-size: 16rem;
+        margin-left: -18px;
+        margin-top: 5rem;
+        color: rgba(255, 255, 255, 0.8); }
+      #main .main-content .text-container p {
+        text-align: right;
+        font-size: 3rem;
+        margin-top: -2rem; }
+      @media (min-width: 768px) {
+        #main .main-content .text-container {
+          margin-top: -10rem; } }
+      @media (max-width: 767.98px) {
+        #main .main-content .text-container h1.h1 {
+          font-size: 6rem;
+          line-height: 1;
+          margin-left: -5px;
+          margin-top: 0; }
+        #main .main-content .text-container p.p {
+          font-size: 2rem;
+          text-align: left;
+          color: #57c7e1; } }
+      @media (min-width: 576px) and (max-width: 767.98px) {
+        #main .main-content .text-container h1.h1 {
+          font-size: 8rem;
+          line-height: .8;
+          margin-top: 0; } }
     #main .main-content .main-jumbotron {
       display: flex;
       align-items: center;
@@ -8004,12 +8005,7 @@ a:not(.btn) {
       @media (min-width: 768px) {
         #main .main-content .main-jumbotron {
           min-height: 50rem;
-          padding: 2rem 3rem;
-          background-image: url("../img/bg-jumb.png");
-          background-attachment: fixed;
-          background-repeat: no-repeat;
-          background-size: auto 50rem;
-          background-position: left 75% top 15rem; } }
+          padding: 2rem 3rem; } }
       @media (max-width: 767.98px) {
         #main .main-content .main-jumbotron {
           padding: 1rem;

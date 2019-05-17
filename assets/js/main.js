@@ -10913,7 +10913,7 @@ $(document).ready(function() {
 $(document).ready(function() {
   var navItems = $('.navbar li.nav-item');
 
-  $('.navbar li.nav-item:not(.dropdown) a.nav-link, .waypoint-link').bind('click', function(e) {
+  $('.navbar li.nav-item:not(.dropdown) a.nav-link:not(.link), .waypoint-link').bind('click', function(e) {
     e.preventDefault();
     var id = $(this).attr('href');
     var elementOffset = document.querySelector(id).offsetTop;
